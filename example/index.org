@@ -1,0 +1,75 @@
+#+title: From LOGO to Sugarizer
+#+lang: en
+#+description: A timeline to demonstrate ox-html-timeline.el
+
+* Header
+
+# The Header section has to be named "Header".
+
+From Papert’s LOGO to Lionel Laske’s http://sugarizer.org.
+
+* Seymour Papert creates LOGO
+  :PROPERTIES:
+  :data-category: Software
+  :icon-color: green
+  :fa-icon: fa-plus
+  :image-src: https://upload.wikimedia.org/wikipedia/commons/2/2c/Remi_turtlegrafik.png
+  :image-caption: Example of the output a LOGO program
+  :date: <1967-01-01 dim.>
+  :END:
+
+#+BEGIN_QUOTE
+Logo is an educational programming language, designed in 1967 by Wally
+Feurzeig, Seymour Papert and Cynthia Solomon.[1] "Logo" is not an
+acronym. It was derived from the Greek logos meaning word or "thought"
+by Feurzeig,[2] to distinguish itself from other programming languages
+that were primarily numbers, not graphics or logic, oriented.
+#+END_QUOTE
+
+Source : https://en.wikipedia.org/wiki/Logo_%28programming_language%29
+
+* Alan Kay présente le concept de Dynabook
+  :PROPERTIES:
+  :data-category: Software
+  :icon-color: green
+  :fa-icon: fa-plus
+  :image-src: https://upload.wikimedia.org/wikipedia/commons/2/2c/Alan_Kay_and_the_prototype_of_Dynabook%2C_pt._5_%283010032738%29.jpg
+  :image-caption: Alan Kay holding a prototype of the Dynabook
+  :date: <1972-01-01 sam.>
+  :END:
+
+#+BEGIN_QUOTE
+The KiddiComp concept, envisioned by Alan Kay in 1968, while a PhD
+candidate[2][3] and later developed and described as the Dynabook in
+his 1972 proposal "A personal computer for children of all ages",[1]
+outlines the requirements for a conceptual portable educational device
+that would offer similar functionality to that now supplied via a
+laptop computer or (in some of its other incarnations) a tablet or
+slate computer with the exception of the requirement for any Dynabook
+device offering near eternal battery life. Adults could also use a
+Dynabook, but the target audience was children.
+#+END_QUOTE
+
+Source : https://en.wikipedia.org/wiki/Dynabook
+
+* Smalltalk’s invention
+  :PROPERTIES:
+  :data-category: Language
+  :icon-color: green
+  :fa-icon: fa-plus
+  :image-src: 
+  :image-caption: 
+  :date: <1972-01-01 sam.>
+  :END:
+
+#+BEGIN_QUOTE
+Smalltalk is an object-oriented, dynamically typed, reflective programming language. Smalltalk was created as the language to underpin the "new world" of computing exemplified by "human–computer symbiosis."[2] It was designed and created in part for educational use, more so for constructionist learning, at the Learning Research Group (LRG) of Xerox PARC by Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Scott Wallace, and others during the 1970s.
+#+END_QUOTE
+
+Source : https://en.wikipedia.org/wiki/Smalltalk
+
+* Footer
+
+This is a footer.
+
+# The Footer section has to be named "Footer".
