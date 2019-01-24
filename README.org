@@ -1,5 +1,11 @@
 #+TITLE: ox-html-timeline.el
 
+* Maintainance
+
+This repository is now maintained on https://github.com/etalab/ox-html-timeline.
+
+The contents below is for archive purpose.
+
 * Quick start
 
 1. Load the =ox-html-timeline.el=
