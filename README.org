@@ -8,7 +8,7 @@
 4. Navigate to =index.html=
 5. Hit =C-c C-v= to preview the html output
 
-
+* Result
 #+caption: Result
 #+attr_html: :width 300px
 [[file:example/ox-html-timeline.png]]
