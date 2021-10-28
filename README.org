@@ -8,6 +8,12 @@
 4. Navigate to =index.html=
 5. Hit =C-c C-v= to preview the html output
 
+
+#+caption: Result
+#+attr_html: :width 300px
+[[file:example/ox-html-timeline.png]]
+
+
 * License
 
 ox-html-timeline.el is licensed under the GNU GPLv3+ license.
