@@ -16,4 +16,4 @@
 
 * License
 
-ox-html-timeline.el is licensed under the GNU GPLv3+ license.
+=ox-html-timeline.el= is licensed under the GNU GPLv3+ [[file:COPYING][license]].
