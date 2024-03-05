@@ -1,6 +1,6 @@
 ;;; ox-html-timeline.el --- HTML-TIMELINE Back-End for Org Export Engine
 
-;; Copyright (C) 2018-2021 Bastien Guerry
+;; Copyright (C) 2018-2024 Bastien Guerry
 
 ;; Author: Bastien Guerry <bzg@gnu.org>
 ;; Keywords: org, ox, timeline
