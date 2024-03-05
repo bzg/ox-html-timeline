@@ -1,4 +1,4 @@
-;;; ox-html-timeline.el --- HTML-TIMELINE Back-End for Org Export Engine
+;;; ox-html-timeline.el --- HTML-TIMELINE Back-End for Org Export Engine -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2018-2024 Bastien Guerry
 
@@ -316,7 +316,7 @@ as a communication channel."
 	    contents
 	    (org-html-timeline-build-footer))))
 
-(defun org-html-timeline-headline (headline contents info)
+(defun org-html-timeline-headline (headline contents _)
   "Transcode HEADLINE element into HTML-TIMELINE format.
 CONTENTS is the headline contents.  INFO is a plist used as a
 communication channel."
@@ -344,7 +344,7 @@ communication channel."
 		(org-html-timeline-maybe-insert-image image-src image-caption)
 		contents))))
 
-(defun org-html-timeline-section (section contents info)
+(defun org-html-timeline-section (_ contents _)
   "Transcode SECTION element into HTML-TIMELINE format.
 CONTENTS is the section contents.  INFO is a plist used as
 a communication channel."
@@ -352,7 +352,7 @@ a communication channel."
 
 ;;; Filters
 
-(defun org-html-timeline-final-function (contents backend info)
+(defun org-html-timeline-final-function (contents _ _)
   "Prettify the HTML-TIMELINE output."
   (with-temp-buffer
     (web-mode)
