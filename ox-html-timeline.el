@@ -28,6 +28,8 @@
 (require 'ob-core)
 (require 'url-util)
 (declare-function url-encode-url "url-util" (url))
+(eval-when-compile
+  (require 'cl))
 
 ;;; Variables and options
 
@@ -355,7 +357,7 @@ a communication channel."
 (defun org-html-timeline-final-function (contents _ _)
   "Prettify the HTML-TIMELINE output."
   (with-temp-buffer
-    (web-mode)
+    (html-mode)
     (insert contents)
     (indent-region (point-min) (point-max))
     (buffer-substring-no-properties (point-min) (point-max))))
